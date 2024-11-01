@@ -18,4 +18,4 @@
 
 ## Proyek
 - **Nama Proyek**:Protofolio
-  - [Link ke Proyek](https://zxyntzy.github.io/Wldnfrds/)
+  - [Link ke Proyek](https://wldnfrds.github.io/)
