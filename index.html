@@ -8,6 +8,10 @@
     <meta name="author" content="Will">
     <title>Portfolio</title>
 
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
 
     <link rel="stylesheet" href="assets/css/style.css">
@@ -30,19 +34,23 @@
                             class="ti-github" aria-hidden="true"></i></a></li>
             </ul>
             <div class="header-content">
-                <h4 class="header-subtitle">Hello, I am</h4>
-                <h1 class="header-title">Wildan Firdaus</h1>
-                <h6 class="header-mono">Web Developer</h6>
+                <h4 class="header-subtitle" data-aos="fade-right" data-aos-duration="1500">Hello, I am</h4>
+                <h4 class="header-title" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"><span
+                        id="typed-name"></span></h4>
+                <h6 class=" header-mono" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
+                    Web Developer</h6>
                 <a href="https://drive.google.com/file/d/1LsI2GT5k75HuVyL2Q8cilmqMDDzG0X9F/view?usp=drive_link"
-                        target="_blank" class="text-dark">
-                <button class="btn btn-info btn-rounded"><i class="ti-printer pr-2"></i>
-                    Print Resume
-                </button>
-            </a>
+                    target="_blank" class="text-white">
+                    <button class="btn btn-info btn-rounded" data-aos="zoom-in" data-aos-duration="1500"><i
+                            class="ti-printer pr-2"></i>
+                        Print Resume
+                    </button>
+                </a>
             </div>
         </div>
     </header>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" data-spy="affix" data-offset-top="510">
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-transparent" data-spy="affix" data-offset-top="510">
         <div class="container" data-aos="fade-left">
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -52,33 +60,34 @@
             <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a href="#home" class="nav-link">Home</a>
+                        <a href="#home" class="nav-link text-white smooth-scroll">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#about" class="nav-link">About</a>
+                        <a href="#about" class="nav-link text-white smooth-scroll">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#resume" class="nav-link">Resume</a>
+                        <a href="#resume" class="nav-link text-white smooth-scroll">Resume</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav brand">
                     <img src="assets/imgs/header1.jpg" alt="" class="brand-img">
                     <li class="brand-txt">
-                        <h5 class="brand-title">Wildan Firdaus</h5>
-                        <div class="brand-subtitle text-dark">Web Developer</div>
+                        <h5 class="brand-title text-white">Wildan Firdaus</h5>
+                        <div class="brand-subtitle text-white ">Web Developer</div>
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                        <a href="#portfolio" class="nav-link text-white smooth-scroll">Portfolio</a>
                     </li>
                     <li class="nav-item last-item">
-                        <a href="#contact" class="nav-link">Contact</a>
+                        <a href="#contact" class="nav-link text-white smooth-scroll">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
     <div class="container-fluid">
         <div id="about" class="row about-section">
             <div class="col-lg-4 about-card" data-aos="fade-up-right">
@@ -90,9 +99,9 @@
                     cepat terhadap perubahan dan tantangan. Tanggung jawab dan semangat belajar yang tinggi mendorong
                     saya untuk menghasilkan kualitas kerja terbaik dan memberikan kontribusi positif dalam setiap
                     proyek.</p>
-                <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>
-                    <a href="https://drive.google.com/file/d/1LsI2GT5k75HuVyL2Q8cilmqMDDzG0X9F/view?usp=drive_link" class="text-danger">Download My CV</a>
-                </button>
+                <button class="btn btn-outline-info" data-toggle="modal" data-target="#cvModal"><i
+                        class="icon-down-circled2"></i> Download My CV</button>
+
             </div>
             <div class="col-lg-4 about-card" data-aos="fade-up">
                 <h3 class="font-weight-light">Personal Info</h3>
@@ -106,13 +115,13 @@
                     <li><span>Address</span> : 8C57+827 Cibanten, Kab. Pangandaran, Jawa Barat</li>
                 </ul>
                 <ul class="social-icons pt-3 text-info">
-                    <li class="social-item"><a class="social-link text-success" href="https://twitter.com/goatzxwill" target="_blank"><i
-                                class="ti-twitter" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link text-success" href="https://twitter.com/goatzxwill"
+                            target="_blank"><i class="ti-twitter" aria-hidden="true"></i></a></li>
                     <li class="social-item"><a class="social-link text-success"
                             href="https://instagram.com/wldnfrds____" target="_blank"><i class="ti-instagram"
                                 aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link text-success" href="https://github.com/wldnfrds" target="_blank"><i
-                                class="ti-github" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><a class="social-link text-success" href="https://github.com/wldnfrds"
+                            target="_blank"><i class="ti-github" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
             <div class="col-lg-4 about-card" data-aos="fade-down">
@@ -139,11 +148,32 @@
         </div>
     </div>
 
+    <!-- model popup -->
+    <div class="modal fade" id="cvModal" tabindex="-1" role="dialog" aria-labelledby="cvModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cvModalLabel">My CV</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Silakan klik tombol di bawah untuk mengunduh CV Anda.</p>
+                    <a href="https://drive.google.com/file/d/1LsI2GT5k75HuVyL2Q8cilmqMDDzG0X9F/view?usp=drive_link"
+                        class="btn btn-info" target="_blank">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end -->
+
     <!--Resume Section-->
     <section class="section" id="resume">
         <div class="container">
             <h2 class="mb-5"><span class="text-info">My</span> Resume</h2>
-            <div class="row ">
+            <div class="row">
                 <div class="col-md-6 col-lg-4" data-aos="flip-left">
                     <div class="card bg-dark">
                         <div class="card-header">
@@ -162,7 +192,6 @@
                             <h6 class="title text-info">2024 - Present</h6>
                             <P class="text-white">Membuat Aplikasi Kasir Berbasis Web</P>
                             <hr class="bg-info">
-
                         </div>
                     </div>
                 </div>
@@ -180,7 +209,6 @@
                             <hr>
                             <h6 class="title text-info">2016 - 2022</h6>
                             <P class="text-white">SMP 2 Cijulang</P>
-
                         </div>
                     </div>
                 </div>
@@ -195,7 +223,7 @@
                         <div class="card-body pb-2">
                             <h6 class="text-white">HTML</h6>
                             <div class="progress mb-3">
-                                <div class="progress-bar bg-success role=" progressbar" style="width: 45%"
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 45%"
                                     aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <h6 class="text-white">CSS</h6>
@@ -239,101 +267,125 @@
             </div>
         </div>
     </section>
+
     <!-- Portfolio Section -->
-    <section class="section bg-custom-gray " id="portfolio">
+    <section class="section bg-custom-gray" id="portfolio">
         <div class="container">
-            <h1 class="mb-5"><span class="text-info">My</span> Portfolio</h1>
-            <div class="portfolio">
-                <div class="portfolio-container">
-
-                    <div class="col-md-6 col-lg-4 web new" data-aos="zoom-in-down">
-                        <a class="img-popup" href="https://zxyntzy.github.io/zxyntzy-github.com/" target="_blank">
-                            <div class="portfolio-item">
-                                <img src="assets/imgs/Screenshot (4).png" class="img-fluid">
-                                <div class="content-holder">
-
-                                    <div class="text-holder">
-                                        <h6 class="title">WEB</h6>
-                                        <p class="subtitle">Calculator</p>
-                                    </div>
-                                </div>
+            <h1 class="mb-5 text-center"><span class="text-info">My</span> Portfolio</h1>
+            <div class="rowow">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <a class="portfolio-link" href="https://zxyntzy.github.io/zxyntzy-github.com/" target="_blank">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/Screenshot (4).png" class="portfolio-img img-fluid" alt="Calculator">
+                            <div class="portfolio-overlay">
+                                <h6 class="portfolio-title">Kalkulator</h6>
                             </div>
-                        </a>
-                    </div>
-                    <div class="col-md-6 col-lg-4 web new" data-aos="zoom-in-up">
-                        <a class="img-popup" href="https://zxyntzy.github.io/Wldnfrds/" target="_blank">
-                            <div class="portfolio-item">
-                                <img src="assets/imgs/Screenshot (5).png" class="img-fluid"
-                                    alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                                <div class="content-holder">
-
-                                    <div class="text-holder">
-                                        <h6 class="title">WEB</h6>
-                                        <p class="subtitle">Profile</p>
-                                    </div>
-                                </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <a class="portfolio-link" href="https://zxyntzy.github.io/Wldnfrds/" target="_blank">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/Screenshot (5).png" class="portfolio-img img-fluid" alt="Profile">
+                            <div class="portfolio-overlay">
+                                <h6 class="portfolio-title">Profile</h6>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <a class="portfolio-link" href="" target="_blank">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/Screenshot 2025-01-08 114857.png" class="portfolio-img img-fluid"
+                                alt="Dashboard Filament">
+                            <div class="portfolio-overlay">
+                                <h6 class="portfolio-title">Dashboard Filament</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <a class="portfolio-link" href="" target="_blank">
+                        <div class="portfolio-item">
+                            <img src="assets/imgs/Screenshot 2025-01-07 165334.png" class="portfolio-img img-fluid"
+                                alt="Portal Berita">
+                            <div class="portfolio-overlay">
+                                <h6 class="portfolio-title">Portal Berita</h6>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
 
-    <div class="section contact" id="contact">
 
+
+    <div class=" contact" id="contact">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
 
-                <div class="col">
-                    <div class="contact-info-card bg-dark">
-                        <h4 class="contact-title text-white">Contact</h4>
-                        <div class="row mb-2 text-white">
-                            <div class="col-1 pt-1 mr-1">
-                                <i class="ti-mobile icon-md"></i>
+                <div class="col-lg-6 col-md-8 col-sm-12">
+                    <div class="contact-info-card bg-dark text-white p-4 rounded shadow">
+                        <h4 class="contact-title text-center mb-4">Hubungi Kami</h4>
+
+                        <div class="row mb-4">
+                            <div class="col-1 pt-2">
+                                <i class="ti-mobile icon-md text-info"></i>
                             </div>
-                            <div class="col-10 ">
-                                <h6 class="d-inline ">Phone : <br> <span class="text-white">+ (62) 853-2437-8081</span>
-                                </h6>
-                            </div>
-                        </div>
-                        <div class="row mb-2 text-white">
-                            <div class="col-1 pt-1 mr-1">
-                                <i class="ti-map-alt icon-md"></i>
-                            </div>
-                            <div class="col-10">
-                                <h6 class="d-inline">Address :<br> <span class="text-white">8C57+827 Cibanten, Kab.
-                                        Pangandaran, Jawa Barat</span></h6>
+                            <div class="col-11">
+                                <h6>Phone :<br> <span class="text-white">+ (62) 853-2437-8081</span></h6>
                             </div>
                         </div>
-                        <div class="row mb-2 text-white">
-                            <div class="col-1 pt-1 mr-1">
-                                <i class="ti-envelope icon-md"></i>
+                        <div class="row mb-4">
+                            <div class="col-1 pt-2">
+                                <i class="ti-map-alt icon-md text-info"></i>
                             </div>
-                            <div class="col-10">
-                                <h6 class="d-inline">Email :<br> <span
-                                        class="text-white">wildanfirdaus935@gmail.com</span></h6>
+                            <div class="col-11">
+                                <h6>Address :<br> <span class="text-white">8C57+827 Cibanten, Kab. Pangandaran, Jawa
+                                        Barat</span></h6>
                             </div>
                         </div>
-                        <ul class="social-icons pt-4">
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-facebook"
-                                        aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-twitter"
-                                        aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-google"
-                                        aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-instagram"
-                                        aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-github"
-                                        aria-hidden="true"></i></a></li>
+                        <div class="row mb-4">
+                            <div class="col-1 pt-2">
+                                <i class="ti-envelope icon-md text-info"></i>
+                            </div>
+                            <div class="col-11">
+                                <h6>Email :<br> <span class="text-white">wildanfirdaus935@gmail.com</span></h6>
+                            </div>
+                        </div>
+
+                        <ul class="social-icons d-flex justify-content-start pt-4">
+                            <li class="social-item mx-2">
+                                <a class="social-link text-light" href="#"><i class="ti-facebook"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                            <li class="social-item mx-2">
+                                <a class="social-link text-light" href="#"><i class="ti-twitter"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                            <li class="social-item mx-2">
+                                <a class="social-link text-light" href="#"><i class="ti-google"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                            <li class="social-item mx-2">
+                                <a class="social-link text-light" href="#"><i class="ti-instagram"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                            <li class="social-item mx-2">
+                                <a class="social-link text-light" href="#"><i class="ti-github"
+                                        aria-hidden="true"></i></a>
+                            </li>
                         </ul>
                     </div>
                 </div>
-            </div>
 
+            </div>
         </div>
     </div>
+
+
     <footer class="footer py-3">
         <div class="container">
             <p class="small mb-0 text-light text-center">
@@ -360,8 +412,41 @@
 
     <script src="assets/vendors/isotope/isotope.pkgd.js"></script>
 
-
     <script src="assets/js/johndoe.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var options = {
+                strings: ["Wildan Firdaus"], // Teks yang ingin diketik
+                typeSpeed: 100, // Kecepatan mengetik (ms per karakter)
+                backSpeed: 50, // Kecepatan menghapus (ms per karakter)
+                loop: false, // Apakah efek akan mengulang
+                startDelay: 1500 // Menunggu 1500 ms sebelum mulai mengetik
+            };
+
+            var typed = new Typed("#typed-name", options);
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const smoothScrollLinks = document.querySelectorAll('.smooth-scroll');
+
+            smoothScrollLinks.forEach(link => {
+                link.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetSection = document.querySelector(targetId);
+                    const topPosition = targetSection.offsetTop;
+
+                    window.scrollTo({
+                        top: topPosition,
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+
+    </script>
+
 
 </body>
 
